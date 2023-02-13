@@ -442,7 +442,11 @@ width: calc((100%-120px)/6);
 height: 88px;
 }
 
- .customers-link {
+.customer-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.customers-link {
 display: flex;
 align-items: center;
 justify-content: center;
