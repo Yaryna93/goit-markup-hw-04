@@ -233,15 +233,17 @@ margin-right: 40px;
     flex-basis: calc((100% - 72px)/4);
   }
  
-.card-icon {
+  .card-icon {
+    fill:#2E2F42;
+  }
+  
+.thumb {
 width: 264px;
 height: 112px;
-display: flex;
-justify-content: center;
-align-items: center;
 background-color: #F4F4FD;
 border-radius: 4px;
 }
+
 .text-name {
   font-weight: 500;
   font-size: 20px;
@@ -423,6 +425,36 @@ color: var(--main-color);
 .section-inverse {
   background-color: var(--secondory-color);
 }
+
+
+.costumers-title {
+font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+
+.costumers-item {
+width: calc((100%-120px)/6);
+height: 88px;
+}
+
+ .costumers-link {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 100%;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+ }
+
+ .costumers-icon {
+  fill: #afb1b8;
+ }
 
 /*-------FOOTER--------*/
 
