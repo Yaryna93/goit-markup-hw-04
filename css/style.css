@@ -452,11 +452,10 @@ align-items: center;
 justify-content: center;
 width: 168px;
 height: 88px;
-
-
 }
+
 .customers-item {
-flex-basis: width: calc((100%-120px)/6);;
+flex-basis: calc((100%-120px)/6);
 
 }
 
