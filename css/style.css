@@ -225,19 +225,22 @@ margin-right: 40px;
   margin: -1px;
 }
 
-.card-set {
+.cards-set {
   display: flex;
   gap: 24px;
  }
-  .card-sets {
+  .card-set {
     flex-basis: calc((100% - 72px)/4);
   }
  
   .card-icon {
-    fill:#2E2F42;
+  fill:#2E2F42;
   }
   
 .thumb {
+display: flex;
+align-items: center;
+justify-content: center;
 width: 264px;
 height: 112px;
 background-color: #F4F4FD;
@@ -520,14 +523,16 @@ padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  
  }
 
- .footer-icon {
+ .footer-soc-icon {
   fill:#F4F4FD;
   gap: 16px;
  }
 
  .footer-soc-link:is(:hover, :focus) {
+  border-radius: 50%;
   background-color: #31D0AA;
  }
 
