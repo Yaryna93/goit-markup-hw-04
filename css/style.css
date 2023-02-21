@@ -43,7 +43,6 @@ letter-spacing: 0.02em;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
 }
 
 address {
@@ -167,6 +166,8 @@ margin-right: 40px;
 /*----------MAIN STUDIO--------*/
 
 .hero {
+  max-width: 1440px;
+  margin-left: auto;
   background-image:linear-gradient(
   rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7)), url(../images/main-people-office.jpg);
@@ -248,6 +249,7 @@ border-radius: 4px;
 }
 
 .text-name {
+  margin-top: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -446,17 +448,13 @@ font-weight: 700;
   margin-bottom: 72px;
 }
 
-.customers-set {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 168px;
-height: 88px;
-}
+
+
 
 .customers-item {
 flex-basis: calc((100%-120px)/6);
-
+width: 168px;
+height: 88px;
 }
 
 .customers-list {
