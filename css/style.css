@@ -168,6 +168,7 @@ margin-right: 40px;
 
 .hero {
   max-width: 1440px;
+  margin-right: auto;
   margin-left: auto;
   background-image:linear-gradient(
   rgba(46, 47, 66, 0.7), 
