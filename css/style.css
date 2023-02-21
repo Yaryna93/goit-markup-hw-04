@@ -73,6 +73,7 @@ list-style: none;
 .header {
   background-color:var(--secondary-font-color);
   border-bottom:1px solid var(--footer-text);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -386,7 +387,9 @@ letter-spacing: 0.04em;
   border-color: transparent;
 }
 
-
+.filter-button:is(:hover,:focus, .filter-current) {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .concept-item {
   font-weight: 500;
   font-size: 20px;
@@ -406,9 +409,6 @@ letter-spacing: 0.04em;
   border: 1px solid var(--footer-text);
 }
 
-.projects-backgr:is(:hover, :focus) {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
 
 .projects-list {
   display: flex;
@@ -432,6 +432,15 @@ color: var(--main-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.projects-link {
+display: block;
+}
+
+.projects-link:is(:hover, :focus) {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .section-inverse {
   background-color: var(--secondory-color);
 }
@@ -507,6 +516,8 @@ padding-bottom: 100px;
 .footer-container {
   display: flex;
   align-items: baseline;
+  max-width: 1158px;
+  margin: 0 auto;
 }
 
 .footer-soc-title {
